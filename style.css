@@ -1,0 +1,174 @@
+*{
+    margin: 0px 0px;
+    padding: 0px;
+}
+body {
+    background: url(images/manzara.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+/* header css */
+.header{
+background-color: rgba(188, 204, 218, 0.137);
+display: flex;
+height: 110px;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+top: 0;
+}
+.header .title h1 {
+   color:rgba(17, 184, 184, 0.979)
+}
+.header .title h1 span {
+    color: rgb(17, 219, 17);
+}
+.header .nav ul li {
+list-style-type: none;
+}
+.header .nav ul li a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgba(245, 248, 57, 0.932);
+    font-size: 25px;  
+}
+.header .nav ul li a:hover {
+    color: rgb(13, 235, 224);
+    cursor: pointer;
+}
+/* header bitiş */
+
+/* anaiçerik css başlangıç */
+
+.main {
+    height: 50vh;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+.main .info {
+    height: 100%;
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.main .info h1 {
+    color: rgb(235, 216, 216);
+}
+.main .info p {
+    color:gold;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.main .info p b{
+    color: rgb(240, 214, 214);
+    text-transform: capitalize;
+   
+   
+}
+.main .info button{
+    border: none;
+    background-color: brown;
+    color:aliceblue;
+    padding: 10px 20px;
+    border: 5px;
+
+}
+.main .info button:hover{
+    cursor: pointer;
+    background-color: darkslategrey;
+}
+
+/* anaiçerik css bitiş */
+
+/* TABLE alanı başlangiç */
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+
+}
+.table-container table {
+    width: 100%;
+    text-align: center;
+     
+
+}
+th, td {
+    padding: 8px;
+    border: 1px solid gray
+
+}
+th {
+    background-color: bisque;
+}
+
+/* table alanı bitiş */
+
+   /* form alanı başlangıç */
+.form-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 100px;
+    background-color: white;
+
+}
+label {
+    font-weight: bold;
+}
+
+#ad, #email, textarea {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid rgb(184, 10, 10);
+    border-radius: 5px;
+    
+}
+.btn{
+    background-color: rgb(47, 47, 170);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: brown;
+}
+
+
+
+   /* form alanı bitiş */
+
+   /* footer alanı başlangıç */
+.footer{
+    background-color: #333;
+    color:white;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* media sorgusu */
+@media (max-width:800px){
+    .header .nav{
+        background-color: aqua;
+    }
+}
