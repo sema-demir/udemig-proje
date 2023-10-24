@@ -4,7 +4,3 @@
 Kurs projesidir.
 
 Html ve Css özellikleri kullamılarak hazırlandı
-
-<h3>Ekran Görüntüsü<h3>
-
-![](udemig.gif)
